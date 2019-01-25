@@ -10,6 +10,7 @@ import Algorithms.DFS.iterativeDeepening.DFS_iterativeDeepening_Graph;
 import Algorithms.DFS.iterativeDeepening.DFS_iterativeDeepening_Tree;
 import Algorithms.DFS.limitDepth.DFS_limitDepth_Graph;
 import Algorithms.DFS.limitDepth.DFS_limitDepth_Tree;
+import Algorithms.Greedy.Greedy_Graph;
 import Algorithms.UniformCostSearch.UCS_Graph;
 import Algorithms.UniformCostSearch.UCS_Tree;
 import Problems.CityPathProblem;
@@ -36,7 +37,8 @@ public class main {
         //new As_Graph(c);
        //new Bidirectional_Graph(c);
       // new Bidirectional_Tree(c);
-        new UCS_Graph(c);
+       // new UCS_Graph(c);
+        new Greedy_Graph(c);
        // new UCS_Tree(c);
        // new DFS_iterativeDeepening_Graph(c,3);
        // new DFS_iterativeDeepening_Tree(c, 3);
